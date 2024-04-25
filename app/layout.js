@@ -12,10 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-500`}>
+      <body
+        className={`${inter.className} bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-400 to-slate-700 h-full w-full`}
+      >
         <Navbar />
         {children}
       </body>
     </html>
   );
 }
+  

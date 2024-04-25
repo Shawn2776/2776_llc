@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="mb-2">
-        <div className="flex items-center justify-between px-4 py-2 text-white bg-slate-700">
+        <div className="flex items-center justify-between px-4 py-2 text-white bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-500 to-slate-800">
           <div className="flex justify-between w-full md:px-10">
             <h1>
               <Link href="/">

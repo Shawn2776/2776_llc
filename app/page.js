@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="px-4">
+    <main className="h-screen px-4">
       <div className="flex items-center justify-center w-full mx-auto ml-10">
         <Image
           src="/aazR.png"
