@@ -39,16 +39,11 @@ const Navbar = () => {
       <nav className="mb-2">
         <div className="flex items-center justify-between px-4 py-2 text-white bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-600 to-blue-800 shadow-sm shadow-black">
           <div className="flex justify-between w-full md:px-10">
-            <h1>
-              <Link href="/">
-                <Image
-                  src="/logoR2a.png"
-                  width={80}
-                  height={80}
-                  alt="2776 logo"
-                />
-              </Link>
-            </h1>
+            <Link href="/">
+              <h1 className="font-semibold text-white drop-shadow-md shadow-black">
+                2776
+              </h1>
+            </Link>
             <div className="hidden gap-4 md:flex">
               {links.map((link, index) => (
                 <Link
