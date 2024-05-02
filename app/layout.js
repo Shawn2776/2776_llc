@@ -1,8 +1,9 @@
-import { Inter } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
   title: "2776, LLC | Home",
@@ -13,12 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-300 to-blue-800 h-full w-full`}
+        className={`${poppins.className} bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-300 to-blue-800 h-full w-full`}
       >
         <Navbar />
         {children}
+        <GoogleAnalytics gaId="G-62WTDJGQJR" />
       </body>
     </html>
   );
 }
-  
