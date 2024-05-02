@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-300 to-blue-800 h-full w-full`}
+        className={`${poppins.className} bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-300 to-blue-800 min-h-screen w-full`}
       >
         <Navbar />
         {children}

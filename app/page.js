@@ -16,7 +16,7 @@ export default function Home() {
         Hello and Welcome to
         <br />
         <span className="mt-4 text-center text-blue-300 text-7xl">
-          2776, LLC
+          2776 LLC
         </span>
       </p>
     </main>
